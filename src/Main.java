@@ -3,10 +3,15 @@ public class Main {
     public static String middleName = "Семён";
     public static String lastName = "Семёнович";
     public static String fullName = firstName + " " + middleName + " " + lastName;
+
     public static void main(String[] args) {
-        task1();
+        /*task1();
         task2();
-        task3();
+        task3();*/
+        task5();
+        /*task6();
+        task7();
+        task8();*/
     }
 
     private static void task1() {
@@ -24,5 +29,25 @@ public class Main {
         System.out.println("");
         System.out.println("Задача №3");
         System.out.println("Данные ФИО сотрудника — " + fullName.replace("ё", "е"));
+    }
+
+    private static void task5() {
+        System.out.println("");
+        System.out.println("Задача №5");
+    }
+
+    private static void task6() {
+        System.out.println("");
+        System.out.println("Задача №6");
+    }
+
+    private static void task7() {
+        System.out.println("");
+        System.out.println("Задача №7");
+    }
+
+    private static void task8() {
+        System.out.println("");
+        System.out.println("Задача №8");
     }
 }
