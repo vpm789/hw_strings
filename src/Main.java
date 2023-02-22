@@ -1,7 +1,7 @@
 public class Main {
     public static String firstName = "Иванов";
     public static String middleName = "Семён";
-    public static String lastName = "Семёнович";
+    public static String lastName = "Семёнович оглы";
     public static String fullName = firstName + " " + middleName + " " + lastName;
 
     public static void main(String[] args) {
@@ -34,6 +34,9 @@ public class Main {
     private static void task5() {
         System.out.println("");
         System.out.println("Задача №5");
+        System.out.println("Имя сотрудника — " + fullName.substring(0, fullName.indexOf(' ')));
+        System.out.println("Фамилия сотрудника — " + fullName.substring(fullName.indexOf(' ')+1, fullName.indexOf(' ', fullName.indexOf(' ')+1)));
+        System.out.println("Отчество сотрудника — " + fullName.substring(fullName.indexOf(' ', fullName.indexOf(' ')+1)));
     }
 
     private static void task6() {
